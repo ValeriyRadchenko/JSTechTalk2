@@ -1,0 +1,26 @@
+{
+  "name": "blockchain-presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && node dist/test.js",
+    "build": "tsc",
+    "start": "npm run build && node --experimental-worker dist/app.js",
+    "exec": "node --experimental-worker dist/app.js"
+  },
+  "author": "Valerii Radchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/commander": "^2.12.2",
+    "@types/node": "^10.0.9",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "big-integer": "^1.6.28",
+    "commander": "^2.15.1",
+    "elliptic": "^6.4.0",
+    "leveldown": "^3.0.2",
+    "levelup": "^2.0.2"
+  }
+}

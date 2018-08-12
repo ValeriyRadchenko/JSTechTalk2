@@ -1,0 +1,22 @@
+{
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2016",
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "rootDir": "./src",
+    "outDir": "./dist"
+  }
+}
